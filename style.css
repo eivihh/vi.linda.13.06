@@ -1,0 +1,14 @@
+/*SELETOR UNIVERSAL*/
+ *{ margin: 0px;
+    padding: 0px;
+}
+
+.cabealho{
+background-color:rgb(26, 155, 155);
+color:rgb(15, 160, 10);
+display: flex;
+padding: 30px;
+font-size: 24px;
+justify-content: space-around;
+
+}
