@@ -1,35 +1,36 @@
 /*SELETOR UNIVERSAL*/
 body{
+    *{ margin: 0px;
+        padding: 0px;
+    }
+
+/*CORPO DA PAGINA*/     
     font-family: sans-serif;
 }
- *{ margin: 0px;
-    padding: 0px;
-}
 
+/*SECCAO  CABECALHO*/
 .cabecalho{
     background-color: rgba(10, 160, 140);
-    color: rgba(10, 160, 140);
     display: flex;
     padding: 30px;
     font-size: 24px;
     justify-content: space-around;
-
 }
 
 .cabecalho-imagem{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .cabecalho-item{ 
     display: inline-block;
     padding: 0 100px;
+    text-decoration: underline;
 }
 
+/*SECCAO TURMA*/
 .turma{
-
     background-image: linear-gradient(rgba(10, 160, 140), rgba(10, 160, 140));
-
 }
 
 .turma-titulo{
@@ -37,7 +38,41 @@ body{
     text-align: center;
 }
 
-.turma-imagem{
-    width: 300px;
-
+.turma-div{
+    display: flex;
+    justify-content: center;
 }
+    .turma-imagem{
+        width: 300px;
+    }
+
+    /*SECCAO ESTUDANTE*/
+
+    .estudante{
+        background-image: linear-gradient(rgba(10,160,140),rgba(10,160,140));
+    }
+
+    .estudante-titulo{
+        text-align: center;
+        font-size: 24px;
+        padding: 30px 0;
+    }
+
+    .estudante-div{
+        text-align: center;
+    }
+
+    .estudante-imagem{
+        width: 90px;
+        height: 100px;
+    }
+
+    .estudante-icone{
+        width: 52px;
+        height: 53px;
+    }
+
+    .estudante-legenda{
+        font-size: 14px;
+    }
+    
